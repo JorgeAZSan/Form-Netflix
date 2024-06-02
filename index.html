@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="netflix.png">
+        </div>
+        <div class="login-form">
+            <h1>Iniciar Sesion</h1>
+            <form id="login-form">
+
+                <!--Casilla 1 -->
+                <div class="input-container">
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                
+                <!-- Casilla 2 -->
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+
+                <!-- Boton ingreso -->
+                <button type="submit">Iniciar Sesion</button>
+            </form>
+
+
+            <div class="success-message" id="success-message"></div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" id="remember-forgot"> Recordarme
+                </label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            <div class="signup-now">
+                ¿Nuevo en Netflix <a href="#">Suscribete ahora</a>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
